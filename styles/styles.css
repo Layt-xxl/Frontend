@@ -1,0 +1,12 @@
+@import "./base/swiper-bundle.min.css";
+@import "./base/norm.css";
+@import "./blocks/header.css";
+@import "./blocks/connect.css";
+@import "./blocks/cta.css";
+@import "./blocks/footer.css";
+@import "./blocks/global.css";
+@import "./blocks/hero.css";
+@import "./blocks/info.css";
+@import "./blocks/quote.css";
+@import "./blocks/responsive.css";
+@import "./blocks/slider.css";
