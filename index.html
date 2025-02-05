@@ -8,85 +8,89 @@
 </head>
 <body>
     <header>
-        <div class="header-content">
-            <div class="logo">
-                <img class="header-logo" src="./images/1.svg" alt="Логотип">
+        <div class="header__content">
+            <div>
+                <img class="header__content-logo" src="./images/1.svg" alt="Логотип">
             </div>
-            <nav class="header-nav">
-                <a href="">Contacts</a>
-                <a href="">Sign up</a>
-                <a href="">Log in</a>
+            <nav class="header__nav">
+                <a href="header__nav-item">Contacts</a>
+                <a href="header__nav-item">Sign up</a>
+                <a href="header__nav-item">Log in</a>
             </nav>
         </div>
     </header>
     <main>
         <!-- Основной раздел -->
-         <section class="hero">
-            <div class="hero-content">
-                <h1>Профессиональное строительство в Minecraft</h1>
-                <p>Создаем уникальные проекты любой сложности. От небольших домов до целых городов. Реализуем ваши идеи в квадратном мире!</p>
-                <a href="#" class="can">Заказать сейчас</a>
-                <p>Хотите работать с нами? <a href="#" class="hire-now-link">Вакансии</a></p>
-                <div class="gradient">
-                    <img class="hero-image" alt="Пример постройки" src="./images/f085302e030afb1c4c838d270f415ba6.png">
+         <section class="hero__content">
+            <div class="hero__content-list">
+                <h1 class="hero__content-title">Профессиональное строительство в Minecraft</h1>
+                <p class="hero__content-paragraph">Создаем уникальные проекты любой сложности. От небольших домов до целых городов. Реализуем ваши идеи в квадратном мире!</p>
+                <a href="#" class="hero__content-link">Заказать сейчас</a>
+                <p class="hero__content-hire">Хотите работать с нами? <a href="#" class="hero__content-hire-link">Вакансии</a></p>
+                <div class="hero__content-gradient">
+                    <img class="hero__content-image" alt="Пример постройки" src="./images/f085302e030afb1c4c838d270f415ba6.png">
                 </div>
                 
             </div>
          </section>
         <!-- Цитата -->
          <section class="quote">
-            <div class="quote-content">
-                <img class="quote-icon" src="./images/1.svg" alt="иконка">
-                <div class="author-details">
-                    <img src="./images/1673357461_new_preview_s189772745713394276_p7011_i154_w1500-50373084.jpg" alt="фото автора" class="author-photo">
+            <div>
+                <img class="quote__icon" src="./images/1.svg" alt="иконка">
+                <div class="quote__author">
+                    <img src="./images/1673357461_new_preview_s189772745713394276_p7011_i154_w1500-50373084.jpg" alt="фото автора" class="quote__img">
                     <blockquote>
-                        <p>Строительство в Minecraft - это искусство.</p>
-                        <p>Мы превращаем ваши мечты в цифровую реальность!</p>
+                        <p class="quote__phrase">Строительство в Minecraft - это искусство.</p>
+                        <p class="quote__phrase">Мы превращаем ваши мечты в цифровую реальность!</p>
                     </blockquote>
-                    <p>_Layt_</p>
-                    <span>Основатель компании</span>
+                    <p class="quote__name">_Layt_</p>
+                    <span class="quote__name">Основатель компании</span>
                     
                 </div>
             </div>
          </section>
          <!-- Информация -->
     <section class="info">
-        <h2>Почему выбирают нас?</h2>
-        <div class="card-display"></div>
-        <div class="features-slider">
-            <div class="feature">
-                <h3>Индивидуальный подход</h3>
-                <p>Каждый проект разрабатывается с нуля согласно вашим пожеланиям. Полная конфиденциальность и авторские права</p>
+        <h2 class="info__question">Почему выбирают нас?</h2>
+        <div class="info__display"></div>
+        <div class="info__features-slider">
+            <div class="info__feature">
+                <h3 class="info__phrase">Индивидуальный подход</h3>
+                <p class="info__text">Каждый проект разрабатывается с нуля согласно вашим пожеланиям. Полная конфиденциальность и авторские права</p>
             </div>
-            <div class="feature">
-                <h3>Опытная команда</h3>
-                <p>15 лет профессионального строительства в Minecraft. Более 500 реализованных проектов</p>
+            <div class="info__feature">
+                <h3 class="info__phrase">Опытная команда</h3>
+                <p class="info__text">15 лет профессионального строительства в Minecraft. Более 500 реализованных проектов</p>
             </div>
-            <div class="feature">
-                <h3>Гарантии качества</h3>
-                <p>Поэтапная оплата. Бесплатные правки. Поддержка 24/7 после сдачи проекта</p>
+            <div class="info__feature">
+                <h3 class="info__phrase">Гарантии качества</h3>
+                <p class="info__text">Поэтапная оплата. Бесплатные правки. Поддержка 24/7 после сдачи проекта</p>
             </div>
         </div>
     </section>
     <!-- Связь -->
      <section class="connect">
-        <div class="connect-content">
-            <img src="./images/2f5be35a6bca6e97d1bf6e7f965982de.jpg" alt="пример работы" class="connect-image">
-            <div class="connect-text">
-                <h3>Как мы работаем?</h3>
-                <p>1. Обсуждаем ваши идеи<br>2. Составляем план<br>3. Согласовываем сроки<br>4. Реализуем проект</p>
+        <div class="connect__content">
+            <img src="./images/2f5be35a6bca6e97d1bf6e7f965982de.jpg" alt="пример работы" class="connect__content-image">
+            <div class="connect__text">
+                <h3 class="connect__question">Как мы работаем?</h3>
+                <p class="connect__phraset">1. Обсуждаем ваши идеи
+                    <br>2. Составляем план
+                    <br>3. Согласовываем сроки
+                    <br>4. Реализуем проект
+                </p>
             </div>
         </div>
      </section>   
         <!-- Слайдер -->
-    <section class="slider-section">
-        <h3>Наши работы</h3>
-        <p>Посмотрите примеры выполненных проектов из разных стилей и тематик</p>
+    <section class="slider">
+        <h3 class="slider__phrase">Наши работы</h3>
+        <p class="slider__text">Посмотрите примеры выполненных проектов из разных стилей и тематик</p>
         <div class="swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./images/maxresdefault (1).jpg" alt="Средневековый замок"></div>
-                <div class="swiper-slide"><img src="./images/maxresdefault.jpg" alt="Современный город"></div>
-                <div class="swiper-slide"><img src="./images/d4018ae46fb3235be23c941d451a9ec0.jpg" alt="Фэнтези деревня"></div>
+                <div class="swiper-slide"><img src="./images/maxresdefault (1).jpg" alt="Пример постройки"></div>
+                <div class="swiper-slide"><img src="./images/maxresdefault.jpg" alt="Пример постройки"></div>
+                <div class="swiper-slide"><img src="./images/d4018ae46fb3235be23c941d451a9ec0.jpg" alt="Пример постройки"></div>
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -94,23 +98,23 @@
     </section>
     <!-- Призыв к действию -->
     <section class="cta">
-        <div class="cta-content">
-            <div class="cta-text">
-                <h2>Начните свой проект сегодня!</h2>
-                <a href="#" class="primary-button">Обсудить проект</a>
+        <div class="cta__content">
+            <div class="cta__text">
+                <h2 class="cta__title">Начните свой проект сегодня!</h2>
+                <a href="#" class="cta__phrase">Обсудить проект</a>
             </div>
-            <img class="cta-image" alt="Готовые проекты" src="./images/efbf8a24d8b536603685af3c49aa5860.jpg">
+            <img class="cta__image" alt="Готовые проекты" src="./images/efbf8a24d8b536603685af3c49aa5860.jpg">
         </div>
     </section>
     </main>
     <footer>
-        <div class="footer-content">
-            <div class="footer-left">
-                <img class="footer-logo" alt="Логотип" src="./images/1.svg">
-                <p>Строим будущее Minecraft-вселенной с 2005 года</p>
-                <p>© 2025 MinecraftBuilders. Все права защищены.</p>
+        <div>
+            <div class="footer__left">
+                <img class="footer__logo" alt="Логотип" src="./images/1.svg">
+                <p class="footer__left">Строим будущее Minecraft-вселенной с 2005 года</p>
+                <p class="footer__left">© 2025 MinecraftBuilders. Все права защищены.</p>
             </div>
-            <div class="footer-right">
+            <div class="footer__right">
                 <a href="#">Условия сотрудничества</a>
                 <a href="#">Политика конфиденциальности</a>
             </div>
