@@ -5,13 +5,13 @@
     text-align: center;
 }
 
-.info h2 {
+.info__question {
     font-size: 32px;
     color: #333;
     margin-bottom: 40px;
 }
 
-.card-display {
+.info__display {
     margin-bottom: 30px;
 }
 

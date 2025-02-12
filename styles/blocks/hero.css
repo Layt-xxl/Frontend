@@ -5,12 +5,12 @@
     margin: 40px 0;
 }
 
-.hero-content {
+.hero__content-list {
     text-align: center;
     width: 100%;
 }
 
-.hero-content h1 {
+.hero__content-title {
     font-size: 40px;
     color: #080305;
     max-width: 1200px;
@@ -18,24 +18,24 @@
     margin: 0 auto 10px;
 }
 
-.hero-content p {
+.hero__content-paragraph {
     font-size: 18px;
     color: #707070;
     width: 90%;
     margin: 0 auto 10px;
 }
 
-.hero-content p a {
+.hero__content-hire-link {
     color: #3D1EDD;
     text-decoration: none;
     font-weight: bold;
 }
 
-.hero-content p a:hover {
+.hero__content-link:hover {
     text-decoration: underline;
 }
 
-.gradient {
+.hero__content-gradient {
     position: relative;
     width: 100%;
 }
@@ -51,7 +51,7 @@
     z-index: -2;
 }
 
-.hero-image {
+.hero__content-image {
     max-width: 100%;
     height: auto;
     display: block;

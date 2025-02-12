@@ -4,25 +4,25 @@
     background-color: #fff;
 }
 
-.connect-content {
+.connect__content {
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
-.connect img {
+.connect__content-image {
     width: 50%;
     border-radius: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.connect-text h3 {
+.onnect__question {
     font-size: 30px;
     color: #080305;
     margin-bottom: 20px;
 }
 
-.connect-text p {
+.connect__phraset {
     font-size: 16px;
     color: #707070;
 }

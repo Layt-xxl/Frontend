@@ -4,26 +4,26 @@ header {
     padding: 20px 0;
 }
 
-.header-content {
+.header__content {
     display:flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.logo img {
+.header__content-logo {
     height: 40px;
     
 }
 
-.header-nav {
+.header__nav {
     display: flex;
     align-items: center;
     padding: 8px 30px;
 
 }
 
-.header-nav a {
+.header__nav-item {
     margin-left: 20px;
     text-decoration: none;
     font-weight: bold;
@@ -32,7 +32,7 @@ header {
 
 }
 
-.header-nav a:hover {
+.header__nav-item:hover {
     color: #5a67d8;
 }
 

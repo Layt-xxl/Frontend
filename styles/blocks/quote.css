@@ -6,14 +6,14 @@
     position: relative;
 }
 
-.quote-icon {
+.quote__icon {
     position: absolute;
     top: 50px;
     left: 420px;
     width: 50px;
 }
 
-.quote blockquote {
+.quote__blockquote {
     font-size: 30px;
     line-height: 1.4;
     color: #080305;
@@ -28,7 +28,7 @@
     margin-top: 20px;
 }
 
-.author-photo {
+.quote__img {
     border-radius: 50%;
     width: 80px;
     margin-bottom: 10px;

@@ -5,33 +5,33 @@ footer {
     padding: 40px 20px;
 }
 
-.footer-content {
+.footer__content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.footer-left {
+.footer__left {
     text-align: left;
 }
 
-.footer-left img {
+.footer__logo {
     width: 60px;
     margin-bottom: 10px;
 }
 
-.footer-left p {
+.footer__left-p {
     font-size: 14px;
     color: #080305;
 }
 
-.footer-right a {
+.footer__right-a {
     color: #080305;
     margin-left: 20px;
     text-decoration: none;
     font-size: 14px;
 }
 
-.footer-right a:hover {
+.footer__right-a:hover {
     color: #aaa;
 }

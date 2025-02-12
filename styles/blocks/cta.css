@@ -4,20 +4,20 @@
     background-color: #0C0909;
 }
 
-.cta-content {
+.cta__content {
     display: flex;
     align-items: center;
     gap: 40px;
     justify-content: space-between;
 }
 
-.cta-text h2 {
+.cta__title {
     font-size: 32px;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
 
-.cta-text .primary-button {
+.cta__phrase {
     padding: 10px 20px;
     background-color: #3D1EDD;
     color: #fff;
@@ -27,11 +27,11 @@
     transition: background-color 0.3s;
 }
 
-.cta-text .primary-button:hover {
+.cta__phrase:hover {
     background-color: #434190;
 }
 
-.cta img {
+.cta__image {
     width: 50%;
     border-radius: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

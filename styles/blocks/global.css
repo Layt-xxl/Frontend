@@ -14,11 +14,11 @@ body {
     background-color: #f8f8f8;
 }
 
-header .header-content,
-main .quote .quote-content,
-main .connect .connect-content,
-main .cta .cta-content,
-footer .footer-content {
+header .header__content,
+main .quote .quote__content,
+main .connect .connect__content,
+main .cta .cta__content,
+footer .footer__content {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
