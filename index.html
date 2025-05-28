@@ -1,124 +1,149 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minecraft Строители</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Jobly</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/base/swiper-bundle.min.css"/>
 </head>
 <body>
-    <header>
-        <div class="header__content">
-            <div>
-                <img class="header__content-logo" src="./images/1.svg" alt="Логотип">
-            </div>
-            <nav class="header__nav">
-                <a class="header__nav-item">Contacts</a>
-                <a class="header__nav-item">Sign up</a>
-                <a class="header__nav-item">Log in</a>
-            </nav>
+<!-- Preloader -->
+<div class="preloader">
+    <div class="preloader__spinner"></div>
+</div>
+<!-- Header -->
+<header class="header">
+    <div class="header__content">
+        <div class="header__logo">
+            <img class="header__logo-img" alt="Jobly Logo" src="img/logo.svg">
         </div>
-    </header>
-    <main>
-        <!-- Основной раздел -->
-         <section class="hero__content">
-            <div class="hero__content-list">
-                <h1 class="hero__content-title">Профессиональное строительство в Minecraft</h1>
-                <p class="hero__content-paragraph">Создаем уникальные проекты любой сложности. От небольших домов до целых городов. Реализуем ваши идеи в квадратном мире!</p>
-                <a href="#" class="hero__content-link">Заказать сейчас</a>
-                <p class="hero__content-hire">Хотите работать с нами? <a href="#" class="hero__content-hire-link">Вакансии</a></p>
-                <div class="hero__content-gradient">
-                    <img class="hero__content-image" alt="Пример постройки" src="./images/f085302e030afb1c4c838d270f415ba6.png">
-                </div>
-                
+        <nav class="header__nav">
+            <a href="#" class="header__nav-link">For Recruiters</a>
+            <a href="#" class="header__nav-link header__nav-link--sign-up">Sign Up</a>
+            <a href="#" class="header__nav-link header__nav-link--log-in">Log in</a>
+        </nav>
+    </div>
+</header>
+<main class="main">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Candidates with Creative & Engineering Backgrounds</h1>
+            <p class="hero__text">This is the place to show yourself and land entry level jobs at cutting-edge companies. Launch your career here.</p>
+            <a href="#" class="hero__cta hero__cta--can">Join Now</a>
+            <p class="hero__text">Looking for candidates? <a href="#" class="hero__link">Hire now</a></p>
+            <div class="hero__gradient">
+                <img class="hero__image" alt="Hero Image" src="img/hero-image.png">
             </div>
-         </section>
-        <!-- Цитата -->
-         <section class="quote">
-            <div class="quote__content">
-                <img class="quote__icon" src="./images/1.svg" alt="иконка">
-                <div class="quote__author">
-                    <img src="./images/1673357461_new_preview_s189772745713394276_p7011_i154_w1500-50373084.jpg" alt="фото автора" class="quote__img">
-                    <blockquote class="quote__blockquote">
-                        <p class="quote__phrase">Строительство в Minecraft - это искусство.</p>
-                        <p class="quote__phrase">Мы превращаем ваши мечты в цифровую реальность!</p>
-                    </blockquote>
-                    <p class="quote__name">_Layt_</p>
-                    <span class="quote__name">Основатель компании</span>
-                    
-                </div>
+        </div>
+    </section>
+    <!-- Quote Section -->
+    <section class="quote">
+        <div class="quote__content">
+            <img class="quote__icon" alt="Quote Icon" src="img/mask.png">
+            <div class="quote__author">
+                <img src="img/avatar.png" alt="Zhao Cui" class="quote__author-photo">
+                <blockquote class="quote__text">
+                    <p>Creating an Online Presence is Hard.</p>
+                    <p>Jobly Makes it Easy for Recruiters to See You.</p>
+                </blockquote>
+                <p class="quote__author-name">Zhao Cui</p>
+                <span class="quote__author-title">Founder at Jobly.co</span>
             </div>
-         </section>
-         <!-- Информация -->
+        </div>
+    </section>
+    <!-- Info Section -->
     <section class="info">
-        <h2 class="info__question">Почему выбирают нас?</h2>
-        <div class="info__display"></div>
+        <h2 class="info__title">Everything you want to know in one place.</h2>
+        <div class="info__card-display"></div>
         <div class="info__features-slider">
             <div class="info__feature">
-                <h3 class="info__phrase">Индивидуальный подход</h3>
-                <p class="info__text">Каждый проект разрабатывается с нуля согласно вашим пожеланиям. Полная конфиденциальность и авторские права</p>
+                <h3 class="info__feature-title">Professional Profile 1</h3>
+                <p class="info__feature-text">1. We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
             </div>
             <div class="info__feature">
-                <h3 class="info__phrase">Опытная команда</h3>
-                <p class="info__text">15 лет профессионального строительства в Minecraft. Более 500 реализованных проектов</p>
+                <h3 class="info__feature-title">Professional Profile 2</h3>
+                <p class="info__feature-text">2. We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
             </div>
             <div class="info__feature">
-                <h3 class="info__phrase">Гарантии качества</h3>
-                <p class="info__text">Поэтапная оплата. Бесплатные правки. Поддержка 24/7 после сдачи проекта</p>
+                <h3 class="info__feature-title">Professional Profile 3</h3>
+                <p class="info__feature-text">3. We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
             </div>
         </div>
     </section>
-    <!-- Связь -->
-     <section class="connect">
+    <!-- Connect Section -->
+    <section class="connect">
         <div class="connect__content">
-            <img src="./images/2f5be35a6bca6e97d1bf6e7f965982de.jpg" alt="пример работы" class="connect__content-image">
+            <img class="connect__image" alt="Connect Image" src="img/connect-image.png">
             <div class="connect__text">
-                <h3 class="connect__question">Как мы работаем?</h3>
-                <p class="connect__phraset">1. Обсуждаем ваши идеи
-                    <br>2. Составляем план
-                    <br>3. Согласовываем сроки
-                    <br>4. Реализуем проект
-                </p>
+                <h3 class="connect__title">Connect With Recruiter</h3>
+                <p class="connect__description">Get instant access to a curated pool of top creative & tech talent actively seeking their next role. Find highly qualified job!</p>
             </div>
-        </div>
-     </section>   
-        <!-- Слайдер -->
-    <section class="slider">
-        <h3 class="slider__phrase">Наши работы</h3>
-        <p class="slider__text">Посмотрите примеры выполненных проектов из разных стилей и тематик</p>
-        <div class="swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img class="swiper-slide-img" src="./images/maxresdefault (1).jpg" alt="Пример постройки"></div>
-                <div class="swiper-slide"><img class="swiper-slide-img" src="./images/maxresdefault.jpg" alt="Пример постройки"></div>
-                <div class="swiper-slide"><img class="swiper-slide-img" src="./images/d4018ae46fb3235be23c941d451a9ec0.jpg" alt="Пример постройки"></div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
         </div>
     </section>
-    <!-- Призыв к действию -->
+    <!-- Slider Section -->
+    <section class="slider">
+        <h3 class="slider__title">Connect With Slider</h3>
+        <p class="slider__text">Get instant access to a curated pool of top creative & tech talent actively seeking their next role. Find highly qualified job!</p>
+        <div class="swiper-wrapper-container">
+            <div class="swiper-button swiper-button-prev"></div>
+            <div class="swiper-container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/info-image.png" alt="Image 1"></div>
+                        <div class="swiper-slide"><img src="img/hero-image.png" alt="Image 2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button swiper-button-next"></div>
+        </div>
+    </section>
+    <!-- CTA Section -->
     <section class="cta">
         <div class="cta__content">
             <div class="cta__text">
-                <h2 class="cta__title">Начните свой проект сегодня!</h2>
-                <a href="#" class="cta__phrase">Обсудить проект</a>
+                <h2 class="cta__title">Set up your profile. Let jobs find you.</h2>
+                <a href="#" class="cta__cta-button cta__cta-button--primary">Join Now</a>
             </div>
-            <img class="cta__image" alt="Готовые проекты" src="./images/efbf8a24d8b536603685af3c49aa5860.jpg">
+            <img class="cta__image" alt="CTA Image" src="img/job-image.png">
         </div>
     </section>
-    </main>
-    <footer>
-        <div class="footer__content">
-            <div class="footer__left">
-                <img class="footer__logo" alt="Логотип" src="./images/1.svg">
-                <p class="footer__left-p">Строим будущее Minecraft-вселенной с 2005 года</p>
-                <p class="footer__left-p">© 2025 MinecraftBuilders. Все права защищены.</p>
-            </div>
-            <div class="footer__right">
-                <a class="footer__right-a" href="#">Условия сотрудничества</a>
-                <a class="footer__right-a" href="#">Политика конфиденциальности</a>
-            </div>
+</main>
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__left">
+            <img class="footer__logo" alt="Jobly Logo" src="img/logo2.png">
+            <p class="footer__text">We support a pool of diverse young creatives and engineers.</p>
+            <p class="footer__text">© 2023 Jobly.co Copyright and All rights reserved.</p>
         </div>
-    </footer>
+        <div class="footer__right">
+            <a href="#" class="footer__link">Terms and Conditions</a>
+            <a href="#" class="footer__link">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+<!-- Form -->
+<div class="modal-overlay modal-overlay--hidden">
+    <div class="modal">
+        <form class="modal__form">
+            <h2 class="modal__title">Login/Register</h2>
+            <label for="name" class="modal__label">Name:</label>
+            <input type="text" id="name" name="name" class="modal__input" required>
+            <label for="email" class="modal__label">Email:</label>
+            <input type="email" id="email" name="email" class="modal__input" required>
+            <label for="password" class="modal__label">Password:</label>
+            <input type="password" id="password" name="password" class="modal__input" required>
+            <div class="modal__buttons">
+                <button type="submit" class="modal__button modal__button--primary">OK</button>
+                <button type="button" class="modal__button modal__button--secondary modal__button--cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="scripts/swiper-bundle.min.js"></script>
+<script src="scripts/scripts.js"></script>
+<script src="ts/main.js"></script>
 </body>
 </html>
